@@ -1,0 +1,63 @@
+{
+    "travel": [
+    {
+    "bookTitle": "It's Only the Himalayas",
+    "bookPrice": "45.17",
+    "available": "19",
+    "imageUrl": "http://books.toscrape.com/media/cache/6d/41/6d418a73cc7d4ecfd75ca11d854041db.jpg", 
+    "bookDescription": "Wherever you go, whatever you do, just . . don't do anything stupid.” My MotherDuring her yearlong adventure ",
+    "upc":"a22124811bfa8350"
+    },
+    {
+    "bookTitle": "Full Moon over Noah's Ark: An Odyssey to Mount Ararat and Beyond",
+    "bookPrice": "49.43",
+    "available": "15",
+    "imageUrl": "http://books.toscrape.com/media/cache/fe/8a/fe8af6ceec7718986380c0fde9b3b34f.jpg",
+    "bookDescription": "Acclaimed travel writer Rick Antonson sets his adventurous compass on Mount Ararat, exploring the region's long h",
+    "upc":"ce60436f52c5ee68"
+    },
+    {
+    "bookTitle": "See America: A Celebration of Our National Parks & Treasured Sites",
+    "bookPrice": "48.87",
+    "available": "14",
+    "imageUrl": "http://books.toscrape.com/media/cache/c7/1a/c71a85dbf8c2dbc75cb271026618477c.jpg",
+    "bookDescription": "To coincide with the 2016 centennial anniversary of the National Parks Service, the Creative Action Network has ",
+    "upc": "f9705c362f070608"
+    },
+    {
+    "bookTitle": "Vagabonding: An Uncommon Guide to the Art of Long-Term World Travel",
+    "bookPrice": "36.94",
+    "available": "8",
+    "imageUrl": "http://books.toscrape.com/media/cache/ca/30/ca30b1afe1e76ce7ba1db8176d398e53.jpg",
+    "upc":"1809259a5a5f1d8d"
+    }
+],
+
+"historicalFiction": [
+    {
+    "bookTitle": "Tipping the Velvet",
+    "bookPrice": "53.74",
+    "available": "20",
+    "imageUrl": "http://books.toscrape.com/media/cache/08/e9/08e94f3731d7d6b760dfbfbc02ca5c62.jpg",
+    "bookDescription": "\"Erotic and absorbing...Written with starling power.\"--\"The New York Times Book Review \" Nan King, an oyster girl",
+    "upc": "90fa61229261140a"
+    },
+    {
+    "bookTitle": "Forever and Forever: The Courtship of Henry Longfellow and Fanny Appleton",
+    "bookPrice": "29.69",
+    "available": "16",
+    "imageUrl": "http://books.toscrape.com/media/cache/f9/9e/f99e760b894d10c6e5ed578618918367.jpg",
+    "bookDescription": "A Proper Historical Romance seriesThe first book in a new series which will focus on the lives of real historical figure",
+    "upc": "9beb96a2300109d7"
+    },
+    {
+    "bookTitle": "A Flight of Arrows (The Pathfinders #2)",
+    "bookPrice": "55.53",
+    "available": "16",
+    "imageUrl": "http://books.toscrape.com/media/cache/ec/65/ec651ed66822d4b68938afa645b1ece2.jpg",
+    "bookDescription": "October 1776--August 1777It is said that what a man sows he will reap--and for such a harvest there is no set season. No",
+    "upc":"3a6fb983e2554023"
+    }
+]
+
+    }

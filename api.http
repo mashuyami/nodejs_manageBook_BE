@@ -1,0 +1,51 @@
+GET  http://localhost:5000/api/v1/user/
+###
+//dang ki
+POST http://localhost:5000/api/v1/auth/register
+Content-Type: application/json
+
+//phai cach truoc cai application toi thieu 1 khoang trong
+{
+    "email":"minh3@gmail.com",
+    "password":"123456"
+}
+//api login
+###
+POST http://localhost:5000/api/v1/auth/login
+Content-Type: application/json
+
+//phai cach truoc cai application toi thieu 1 khoang trong
+{
+    "email":"admin@gmail.com",
+    "password":"123456"
+}
+###
+POST http://localhost:5000/api/v1/auth//refresh-token
+Content-Type: application/json
+
+//phai cach truoc cai application toi thieu 1 khoang trong
+{
+   "refreshToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNjkyNTkyNDI3LCJleHAiOjE2OTM4ODg0Mjd9.3vTz1PNO_U8irfIhvrXBM2K7KUmALdare_ty4L3AEHs"
+}
+###
+GET http://localhost:5000/api/v1/user/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJhZG1pbkBnbWFpbC5jb20iLCJyb2xlX2NvZGUiOiJSMiIsImlhdCI6MTY5MjU5MjQ0MiwiZXhwIjoxNjkyNTkyNDQ3fQ.dZKVC-Eh-gwQOHEEZQyOCKOx0MU1PC1PEnHyeaZkZNc
+###
+GET  http://localhost:5000/api/v1/insert/
+
+
+###
+//get theo phan trang
+GET  http://localhost:5000/api/v1/book/?page=2
+###
+//tim kiem theo ten
+GET  http://localhost:5000/api/v1/book/?name=A Flight of
+###
+//sap xep theo gia tu lon xuong be
+GET  http://localhost:5000/api/v1/book/?order[]=price&order[]=DESC
+###
+//tim hang da het theo khoang
+GET  http://localhost:5000/api/v1/book/?available[]=10&available[]=20
+###
+//sap xep theo gia tu lon xuong be nhung xap xep voi 2 cai thoi
+GET  http://localhost:5000/api/v1/book/?order[]=price&order[]=DESC&limit=2&page=2&name=of
